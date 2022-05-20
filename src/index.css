@@ -1,4 +1,137 @@
 body {
   background-color: #030a34;
   color: #fff;
+  font-family: 'Futura LT';
+}
+
+
+.top-btn-wrap {
+  text-align: right;
+  margin-top: -25px;
+}
+
+.top-btn-wrap button {
+  background: no-repeat;
+  border: none;
+  color: #FC4BA3;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 30px;
+  margin-right: 35px;
+  display: inline-block;
+}
+
+.big-title {
+  font-size: 175px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.big-title .color1 {
+  color: #FC4BA3;
+}
+
+.big-title .color2 {
+  color: #3FECC5;
+}
+
+.big-title .color3 {
+  color: #10169B;
+}
+
+.big-title .color4 {
+  color: #AD8F45;
+}
+
+.connect-wrap .colors-image {
+  width: 45%;
+  height: auto;
+}
+
+.connect-wrap {
+  text-align: right;
+}
+
+.description {
+  font-size: 24px;
+  width: 55%;
+  font-weight: 700;
+}
+
+.invest-calculator-inner {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.calculator-buttons button {
+  padding: 0;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #10169B;
+  margin: 0 5px;
+  position: relative;
+}
+
+.calculator-buttons button span {
+  height: 33px;
+  width: 33px;
+  background: #fff;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.calculator-buttons button span:after {
+  content: "";
+  background: #fff;
+  height: 22px;
+  width: 22px;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+
+.calculator-buttons button.active span:after {
+  background: #FC4BA3;
+}
+
+.calculator-value {
+  background: #fff;
+  color: #010B34;
+  padding: 0 30px;
+  line-height: 50px;
+  border-radius: 50px;
+  font-weight: bold;
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.calculator-value .currency {
+  font-weight: normal;
+}
+
+.invest-calculator .primary-btn {
+  background: #3FECC5;
+  ;border-radius: 50px;
+  width: 100%;
+  padding: 10px 30px;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.invest-calculator {
+  text-align: right;
+  width: 50%;
+  margin-left: auto;
+}
+
+.section-banner {
+  padding: 50px 0;
 }

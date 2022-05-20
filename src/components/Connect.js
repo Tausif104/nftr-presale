@@ -16,7 +16,7 @@ const Connect = () => {
   }
 
   return (
-    <div>
+    <div class="top-btn-wrap">
       {connect === true ? (
         <div className='logout'>
           <button onClick={handleLogout}>Logout</button>

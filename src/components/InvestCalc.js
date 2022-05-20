@@ -34,35 +34,35 @@ const InvestCalc = () => {
 
   return (
     <div className='invest-calculator'>
-      <div className='calculator-buttons'>
-        <button value='1' onClick={handleButtonOne}>
-          <span></span>
-        </button>
-        <button value='2' onClick={handleButtonTwo}>
-          <span></span>
-        </button>
-        <button value='3' onClick={handleButtonThree}>
-          <span></span>
-        </button>
-        <button value='4' onClick={handleButtonFour}>
-          <span></span>
-        </button>
-        <button value='5' onClick={handleButtonFive}>
-          <span></span>
-        </button>
-        <button value='6' onClick={handleButtonSix}>
-          <span></span>
-        </button>
-        <button value='7' onClick={handleButtonSeven}>
-          <span></span>
-        </button>
+      <div className='invest-calculator-inner'>
+        <div className='calculator-buttons'>
+          <button className='active' value='1' onClick={handleButtonOne}>
+            <span></span>
+          </button>
+          <button value='2' onClick={handleButtonTwo}>
+            <span></span>
+          </button>
+          <button value='3' onClick={handleButtonThree}>
+            <span></span>
+          </button>
+          <button value='4' onClick={handleButtonFour}>
+            <span></span>
+          </button>
+          <button value='5' onClick={handleButtonFive}>
+            <span></span>
+          </button>
+          <button value='6' onClick={handleButtonSix}>
+            <span></span>
+          </button>
+          <button value='7' onClick={handleButtonSeven}>
+            <span></span>
+          </button>
+        </div>
+        <div className='calculator-value'>
+          <span>{investment ? investment : '0'} <span className='currency'>ETH</span></span>
+        </div>
       </div>
-
-      <div className='calculator-value'>
-        <span>{investment ? investment : '0'} ETH</span>
-      </div>
-
-      <button className='primary-btn'>Invest</button>
+        <button className='primary-btn'>Invest</button>
     </div>
   )
 }

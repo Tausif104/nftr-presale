@@ -1,0 +1,27 @@
+@font-face {
+    font-family: 'Futura LT';
+    src: url('FuturaLT-Bold.woff2') format('woff2'),
+        url('FuturaLT-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url('FuturaLT-Light.woff2') format('woff2'),
+        url('FuturaLT-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url('FuturaLT-Book.woff2') format('woff2'),
+        url('FuturaLT-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+

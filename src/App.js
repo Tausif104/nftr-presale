@@ -1,5 +1,6 @@
 import Connect from './components/Connect'
 import InvestCalc from './components/InvestCalc'
+import ColorImage from './img/colors-image.svg'
 
 const App = () => {
   return (
@@ -7,19 +8,22 @@ const App = () => {
       <div className='container'>
         <div className='row'>
           <div className='col'>
-            <Connect />
+            <div className="connect-wrap">
+              <img className='colors-image' src={ColorImage} alt='' />
+              <Connect />
+            </div>
           </div>
         </div>
       </div>
       <div className='container'>
         <div className='row'>
           <div className='col'>
-            <h1>
-              <span>NFT</span>
-              <span>R</span> <span>PRE</span>
-              <span>SALE</span>
+            <h1 className='big-title'>
+              <span className='color1'>NFT</span>
+              <span className='color2'>R</span> <span className='color3'>PRE</span>
+              <span className='color4'>SALE</span>
             </h1>
-            <p>
+            <p className='description'>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem optio ipsum, modi corrupti facilis fugiat sint dignissimos veritatis reiciendis aperiam doloremque eos quis magnam
               ipsam delectus quo. Illum doloremque sit eum nihil, est rem et.
             </p>
