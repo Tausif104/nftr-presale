@@ -72,6 +72,7 @@ body {
   background: #10169B;
   margin: 0 5px;
   position: relative;
+  border: none;
 }
 
 .calculator-buttons button span {
@@ -124,6 +125,7 @@ body {
   font-size: 24px;
   text-transform: uppercase;
   font-weight: bold;
+  margin-top: 20px;
 }
 
 .invest-calculator {
@@ -134,4 +136,103 @@ body {
 
 .section-banner {
   padding: 50px 0;
+}
+
+.text-box {
+  background: #010622;
+  text-align: center;
+  padding: 50px 30px;
+  border-radius: 5px;
+}
+
+.text-box-wrap {
+  margin-top: 50px;
+}
+
+.text-box .primary-btn {
+  background: #3FECC5;
+  border-radius: 50px;
+  padding: 10px 30px;
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.line-one {
+  border-bottom: 5px solid #FC4BA3;
+  margin-top: 30px;
+}
+.line-two {
+  border-bottom: 2px solid #10169B;
+}
+
+@media (max-width: 1400px) {
+  .big-title {
+    font-size: 140px;
+  }
+  .invest-calculator {
+    width: 60%;
+  }
+  .connect-wrap .colors-image {
+    width: 70%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .big-title {
+    font-size: 110px;
+    margin: 15px 0 20px;
+  }
+  .description {
+    font-size: 20px;
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .invest-calculator {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .connect-wrap .colors-image {
+    width: 100%;
+  }
+  .big-title {
+    font-size: 90px;
+  }
+}
+
+@media (max-width: 767px) {
+  .big-title {
+    font-size: 60px;
+  }
+  .description {
+    font-size: 16px;
+  }
+  .invest-calculator-inner {
+    display: block;
+}
+.invest-calculator {
+  text-align: center;
+}
+.calculator-value {
+  margin-left: 0;
+  margin-top: 20px;
+}
+}
+
+@media (max-width: 425px) {
+  .calculator-buttons button {
+    height: 35px;
+    width: 35px;
+}
+.calculator-buttons button span {
+  height: 25px;
+  width: 25px;
+}
+.calculator-buttons button span:after {
+  height: 15px;
+  width: 15px;
+}
 }

@@ -9,7 +9,7 @@ const App = () => {
         <div className='row'>
           <div className='col'>
             <div className="connect-wrap">
-              <img className='colors-image' src={ColorImage} alt='' />
+              <img className='colors-image' src={ColorImage} alt='colors-image' />
               <Connect />
             </div>
           </div>
@@ -30,7 +30,7 @@ const App = () => {
             <InvestCalc />
           </div>
         </div>
-        <div className='row'>
+        <div className='row text-box-wrap gy-4'>
           <div className='col-lg-6'>
             <div className='text-box'>
               <h4>
@@ -47,6 +47,15 @@ const App = () => {
               <button className='primary-btn'>Claim</button>
             </div>
           </div>
+        </div>
+        <div className='row'>
+          <div className='col-lg-12'><div className='line-one'></div></div>
+        </div>
+        <div className='row'>
+          <div className='col-lg-12'><div className='line-two mt-2'></div></div>
+        </div>
+        <div className='row'>
+          <div className='col-lg-12'><div className='line-two mt-5'></div></div>
         </div>
       </div>
     </div>
